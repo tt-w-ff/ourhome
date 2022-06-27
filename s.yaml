@@ -17,3 +17,10 @@ services:
         internetAccess: true
         description: hello world by serverless devs
         name: ourhome
+     function:
+        name: custom-cpp-event-function
+        description: 'hello world by serverless devs'
+        timeout: 30
+        memorySize: 64
+        runtime: custom
+        codeUri: ./code
